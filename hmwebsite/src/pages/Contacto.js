@@ -6,7 +6,7 @@ export default function Contacto(){
     return (
         
     <div className="info">
-        <h1>Ponte en contacto conmigo:</h1>
+        <h1><b>Contáctame:</b></h1>
         <ul>
             <li>
                 <img className="logo" src={wpp} alt="Whatsapp Logo"/>

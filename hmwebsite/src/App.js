@@ -5,6 +5,7 @@ import Sobremi from './pages/Sobremi';
 import Todoapp from './pages/Todoapp';
 import Contacto from './pages/Contacto';
 import {Route, Routes} from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   
