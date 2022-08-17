@@ -13,11 +13,11 @@ function App() {
   <>
   <Navbar/>
   <Routes>
-    <Route path="/" element={<Home/>}/>
-    <Route path="/personal" element={<Sobremi/>}/>
-    <Route path="/informacion" element={<Concimientos/>}/>
-    <Route path="/Todoapp" element={<Todoapp/>}/>
-    <Route path="/contacto" element={<Contacto/>}/>
+    <Route path="/PrtflPGG/" element={<Home/>}/>
+    <Route path="PrtflPGG/personal" element={<Sobremi/>}/>
+    <Route path="PrtflPGG/informacion" element={<Concimientos/>}/>
+    <Route path="PrtflPGG/Todoapp" element={<Todoapp/>}/>
+    <Route path="PrtflPGG/contacto" element={<Contacto/>}/>
   </Routes>
   <footer className='fter'><div className='footertext'>Diseñado por Pablo García González</div></footer>
   </>
