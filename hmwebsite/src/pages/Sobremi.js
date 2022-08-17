@@ -106,6 +106,9 @@ export default function Sobremi(){
                     <li>
                         Impresión 3D
                     </li>
+                    <li>
+                        RestAPI: Flask (Python), RESTful (Golang)
+                    </li>
                 </ul>
                 </div>
             </Collapse>

@@ -1,5 +1,5 @@
-import CV from "../media/PabloGarciaCV.pdf"
-import RESUME from "../media/PabloGarciaResume.pdf"
+import CV from "../media/PabloGarciaCVES.pdf"
+import RESUME from "../media/PabloGarciaCVEN.pdf"
 
 export default function Home(){
     return (
