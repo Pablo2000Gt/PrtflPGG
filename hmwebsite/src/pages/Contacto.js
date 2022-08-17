@@ -1,6 +1,6 @@
-import wpp from "../media/wpplogo.png";
-import email from "../media/emaillogo.png";
-import ln from "../media/inlogo.png";
+import wpp from "../media/wpplogob.png";
+import email from "../media/emaillogob.png";
+import ln from "../media/inlogob.png";
 
 export default function Contacto(){
     return (

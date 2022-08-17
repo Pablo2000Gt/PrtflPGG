@@ -3,10 +3,9 @@ import { Link,useMatch,useResolvedPath } from "react-router-dom";
 export default function Navbar(){
     
     return <nav className="nav">
-        <Link to="/" className="site-title">Pablo</Link>
+        <Link to="/" className="site-title">Portafolio</Link>
         <ul>
             <CstmLink to="/personal">Sobre mi</CstmLink>
-            <CstmLink to="/informacion">Conocimientos</CstmLink>
             <CstmLink to="/todoapp">ToDo App</CstmLink>
             <CstmLink to="/contacto">Contacto</CstmLink>
         </ul>

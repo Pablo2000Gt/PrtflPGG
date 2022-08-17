@@ -279,4 +279,62 @@ footer{
     background-color: #94b8d7;
     color: black;
 }
+.home{
+    padding-top: 3rem;
+    width: 900px;
+    margin: auto;
+}
+.homeHeader{
+    
+    border-radius: 10px;
+    padding: 1rem;
+}
+.homeHeader h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.justificacion{
+    
+    background-color: #557996;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-size: 20px;
+
+}
+.todoapp{
+    
+    background-color: #7498b6;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-size: 20px;
+}
+.intenciones{
+    background-color: #94b8d7;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-size: 20px;
+    
+}
+.botones{
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    margin: auto;
+    
+}
+.getbtn{
+    background-color: #021d34;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
   
