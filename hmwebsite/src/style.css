@@ -70,7 +70,7 @@ body{
     padding: auto;
     margin-top: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3rem;
+    font-size: 8vmin;
 }
 .info ul{
     padding: 0;
@@ -78,7 +78,7 @@ body{
     list-style: none;
     gap: 0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3vh;
+    font-size: 6vmin;
     
 }
 .info li{
@@ -114,7 +114,7 @@ footer{
     border-radius: 25px;
     margin:auto;
 
-    width: 60vh;
+    width: 90vmin;
 
     margin-top: 5rem;
     padding-left: 1rem;
@@ -146,7 +146,7 @@ footer{
 #habilidades{
     margin-top: 2rem;
     margin-bottom: 0.5rem;
-    width: 36%;
+    width: 75vmin;
     border-radius: 25px;
     height: 3rem;
     background-color: #365B77;
@@ -156,7 +156,7 @@ footer{
 #intereses{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 36%;
+    width: 75vmin;
     border-radius: 25px;
     height: 3rem;
     background-color: #153f59;
@@ -166,7 +166,7 @@ footer{
 #experiencia{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 36%;
+    width: 75vmin;
     border-radius: 25px;
     height: 3rem;
     background-color: #012e46;
@@ -179,14 +179,14 @@ footer{
     text-align: center;
     margin: auto;
 
-    width: 60vh;
+    width: 80vmin;
     height: auto;
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
 
 #todo-input{
-    width: 45vh;
+    width: 60%;
     border: 2px solid #94b8d7;
     outline: none;
     margin-bottom: 0.5rem;
@@ -194,7 +194,7 @@ footer{
     height: 40px;
 }
 .add-btn{
-    width: 45vh;
+    width: 60%;
 
     background-color: #021d34;
     color: white;
@@ -287,17 +287,18 @@ footer{
 }
 .home{
     padding-top: 3rem;
-    width: 900px;
     margin: auto;
 }
 .homeHeader{
-    
+    margin: auto;
+    width: 70vmin;
     border-radius: 10px;
     padding: 1rem;
 }
 .homeHeader h1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    
+    
 }
 
 .justificacion{
