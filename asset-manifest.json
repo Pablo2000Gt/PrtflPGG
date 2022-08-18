@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/PrtflPGG/static/css/main.1987ad43.css",
+    "main.css": "/PrtflPGG/static/css/main.429fdfc1.css",
     "main.js": "/PrtflPGG/static/js/main.79f45283.js",
     "static/js/787.11616557.chunk.js": "/PrtflPGG/static/js/787.11616557.chunk.js",
     "static/media/portrait.JPG": "/PrtflPGG/static/media/portrait.9f6f0cf4ffbeae67a6a6.JPG",
     "static/media/PabloGarciaCVES.pdf": "/PrtflPGG/static/media/PabloGarciaCVES.33b0ce300308a30d36ed.pdf",
     "static/media/PabloGarciaCVEN.pdf": "/PrtflPGG/static/media/PabloGarciaCVEN.88eb7599f813a2b66f3d.pdf",
     "index.html": "/PrtflPGG/index.html",
-    "main.1987ad43.css.map": "/PrtflPGG/static/css/main.1987ad43.css.map",
+    "main.429fdfc1.css.map": "/PrtflPGG/static/css/main.429fdfc1.css.map",
     "main.79f45283.js.map": "/PrtflPGG/static/js/main.79f45283.js.map",
     "787.11616557.chunk.js.map": "/PrtflPGG/static/js/787.11616557.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1987ad43.css",
+    "static/css/main.429fdfc1.css",
     "static/js/main.79f45283.js"
   ]
 }
