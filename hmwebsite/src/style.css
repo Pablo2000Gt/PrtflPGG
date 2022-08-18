@@ -302,38 +302,41 @@ footer{
 }
 
 .justificacion{
-    
+    width: 80vmin;
     background-color: #557996;
-    border-radius: 10px;
+    
     margin-top: 3rem;
     margin-bottom: 2rem;
     padding: 2rem;
     font-size: 20px;
+    margin:auto;
 
 }
 .todoapp{
-    
+    width: 80vmin;
     background-color: #7498b6;
-    border-radius: 10px;
+    
     margin-bottom: 2rem;
     padding: 2rem;
     font-size: 20px;
+    margin:auto;
 }
 .intenciones{
+    width: 80vmin;
     background-color: #94b8d7;
-    border-radius: 10px;
+    
     margin-bottom: 2rem;
     padding: 2rem;
     font-size: 20px;
+    margin:auto;
     
 }
 .botones{
     align-items: center;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    width: 300px;
+    width: 50vmin;
     margin: auto;
+    
     
 }
 .getbtn{
