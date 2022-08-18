@@ -16,7 +16,7 @@ export default function Sobremi(){
                 <h1><b>Pablo García González 🇬🇹</b></h1>
             </div>
             
-            <hr width="630px" color="#02253d" size="1px" />
+            <hr width="100%" color="#02253d" size="1px" />
             <p>Estudiante de Ingeniería en Ciencias y Sistemas, entusiasta
                 de las nuevas tecnologías y Seleccionado Nacional de Polo
                 Acuático.

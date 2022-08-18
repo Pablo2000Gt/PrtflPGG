@@ -61,23 +61,25 @@ body{
     text-align: center;
     margin: auto;
    
-    width: 600px;
-    height: 500px;
+    width:fit-content;
+    height: auto;
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
 .info h1{
-    padding: 3rem;;
+    padding: auto;
+    margin-top: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 3rem;
 }
 .info ul{
     padding: 0;
-    margin: 1rem 7rem;
+    margin: 2rem;
     list-style: none;
     gap: 0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 3vh;
+    
 }
 .info li{
     margin-bottom: 3rem;
@@ -91,9 +93,9 @@ body{
     
 }
 .logo{
-    width: 50px;
+    width: 3rem;
     height: auto;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
 footer{
     margin-bottom: 0;
@@ -111,10 +113,12 @@ footer{
     border: 1px solid rgb(87, 87, 87);
     border-radius: 25px;
     margin:auto;
-    width: 700px;
+
+    width: 60vh;
+
     margin-top: 5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .PPORTRAIT{
     display: flex;
@@ -122,7 +126,7 @@ footer{
 }
 .portrait{
     margin: 1rem;
-    width: 200px;
+    width: 20vh;
     height: auto;
     border-radius: 10px;
 }
@@ -142,31 +146,31 @@ footer{
 #habilidades{
     margin-top: 2rem;
     margin-bottom: 0.5rem;
-    width: 700px;
+    width: 36%;
     border-radius: 25px;
     height: 3rem;
     background-color: #365B77;
-    font-size: 25px;
+    font-size: 2.7vh;
     font-family: 'Courier New', Courier, monospace;
 }
 #intereses{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 700px;
+    width: 36%;
     border-radius: 25px;
     height: 3rem;
     background-color: #153f59;
-    font-size: 25px;
+    font-size: 2.7vh;
     font-family: 'Courier New', Courier, monospace;
 }
 #experiencia{
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    width: 700px;
+    width: 36%;
     border-radius: 25px;
     height: 3rem;
     background-color: #012e46;
-    font-size: 25px;
+    font-size: 2.7vh;
     font-family: 'Courier New', Courier, monospace;
 }
 .App{
@@ -175,14 +179,14 @@ footer{
     text-align: center;
     margin: auto;
 
-    width: 700px;
+    width: 60vh;
     height: auto;
     margin-bottom: 5rem;
     margin-top: 5rem;
 }
 
 #todo-input{
-    width: 400px;
+    width: 45vh;
     border: 2px solid #94b8d7;
     outline: none;
     margin-bottom: 0.5rem;
@@ -190,7 +194,7 @@ footer{
     height: 40px;
 }
 .add-btn{
-    width: 400px;
+    width: 45vh;
 
     background-color: #021d34;
     color: white;
@@ -218,12 +222,14 @@ footer{
     
 }
 .do-list{
-    padding: 0;
-    margin: 1rem 7rem;
+    
+    margin-left:3vw;
     list-style: none;
     gap: 0rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+    align-content: center;
+    text-align: center;
     
 }
 .liTask{
@@ -244,12 +250,12 @@ footer{
     background-color: #eee;
   }
 .firstline{
-    margin-left: 4.9rem;
+    margin-left: auto;
     align-items: center;
     display: flex;
 }
 .secondLine{
-    margin-left: 4.9rem;
+    margin:auto;
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
@@ -259,8 +265,8 @@ footer{
   }
   .dwn-btn1{
     color:white;
-    background-color: #012e46;
-    width: 155px;
+    background-color: #021d34;
+    width: 40%;
     height: 40px;
     font-size: 20px;
     border: none;
@@ -268,7 +274,7 @@ footer{
   .dwn-btn2{
     color:black;
     background-color: white;
-    width: 155px;
+    width: 40%;
     height: 40px;
     font-size: 20px;
     border-radius: 0px;;
