@@ -5,9 +5,12 @@ import Sobremi from './pages/Sobremi';
 import Todoapp from './pages/Todoapp';
 import Contacto from './pages/Contacto';
 import {Route, Routes} from "react-router-dom"
+import { connect } from 'react-redux';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+  
   
   return( 
   <>
@@ -23,5 +26,6 @@ function App() {
   </>
   )
 }
+
 
 export default App;
