@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/PrtflPGG/static/css/main.907f7c0f.css",
-    "main.js": "/PrtflPGG/static/js/main.d8786a4e.js",
+    "main.css": "/PrtflPGG/static/css/main.2d98207c.css",
+    "main.js": "/PrtflPGG/static/js/main.9bbcb8b4.js",
     "static/js/787.11616557.chunk.js": "/PrtflPGG/static/js/787.11616557.chunk.js",
     "static/media/portrait.JPG": "/PrtflPGG/static/media/portrait.9f6f0cf4ffbeae67a6a6.JPG",
     "static/media/blackYoshi.png": "/PrtflPGG/static/media/blackYoshi.4bccbf043b2f67fc5aef.png",
-    "static/media/CV-ES.pdf": "/PrtflPGG/static/media/CV-ES.34e3fd8ff6fb2da4475a.pdf",
-    "static/media/CV-IN.pdf": "/PrtflPGG/static/media/CV-IN.076080d64a7347d47e69.pdf",
+    "static/media/CV-ES.pdf": "/PrtflPGG/static/media/CV-ES.b963d3dbd01d810c47cf.pdf",
+    "static/media/CV-IN.pdf": "/PrtflPGG/static/media/CV-IN.58081177427a684577ad.pdf",
     "static/media/marcaPais.png": "/PrtflPGG/static/media/marcaPais.3171ba80849234a13e8e.png",
     "static/media/tslogo.png": "/PrtflPGG/static/media/tslogo.1e3902edbe4c3f2970d8.png",
     "static/media/wpplogo.png": "/PrtflPGG/static/media/wpplogo.deb0222ddf09761e25fa.png",
     "static/media/balanz.png": "/PrtflPGG/static/media/balanz.ad423f64eea5b19af688.png",
     "static/media/iphone_notification.mp3": "/PrtflPGG/static/media/iphone_notification.197185060a2128c3766b.mp3",
     "index.html": "/PrtflPGG/index.html",
-    "main.907f7c0f.css.map": "/PrtflPGG/static/css/main.907f7c0f.css.map",
-    "main.d8786a4e.js.map": "/PrtflPGG/static/js/main.d8786a4e.js.map",
+    "main.2d98207c.css.map": "/PrtflPGG/static/css/main.2d98207c.css.map",
+    "main.9bbcb8b4.js.map": "/PrtflPGG/static/js/main.9bbcb8b4.js.map",
     "787.11616557.chunk.js.map": "/PrtflPGG/static/js/787.11616557.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.907f7c0f.css",
-    "static/js/main.d8786a4e.js"
+    "static/css/main.2d98207c.css",
+    "static/js/main.9bbcb8b4.js"
   ]
 }
