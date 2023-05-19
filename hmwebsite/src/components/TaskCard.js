@@ -5,6 +5,11 @@ import Form from "react-bootstrap/Form";
 import React,{useState} from "react";
 import { useDispatch } from "react-redux";
 import { toogleTodo,deleteTodo, editTodo } from "../redux/todoSlice";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHourglass1 } from "@fortawesome/free-solid-svg-icons";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
 
 function TaskCard({id,text,completed}){
@@ -37,15 +42,32 @@ function TaskCard({id,text,completed}){
     }
 
     return(
-        <div>
+        <div id="task">
             <div className="firstline">
-                <input type="checkbox" defaultChecked={completed} onChange={toogle} className="checkbb"></input>
+                <FontAwesomeIcon id="checkbb" icon={completed?faCheckCircle:faHourglass1} style={{
+                    backgroundColor:completed?"green":"#e97900",
+                    color:"#ffffff",
+                    marginTop:"25px",
+                    marginRight:"25px",
+                    marginLeft:"25px",
+                    padding:"10px",
+                    fontSize: "30px",
+                    minWidth:"30px",
+                    borderRadius: "15px",
+                    }} ></FontAwesomeIcon>
                 <label className="do-label">{text}</label>
+                <input type="checkbox" className="checkbb" defaultChecked={completed} onChange={toogle}></input>
             </div>
             
             <div className="secondLine">
-                <button onClick={delTodo} className="dwn-btn1">Eliminar</button>
-                <Button variant="primary" onClick={handleShow}  className="dwn-btn2">Editar</Button>
+
+                <button onClick={delTodo} className="dwn-btn1">
+                    <FontAwesomeIcon icon={faTrash} style={{color:"#ffffff"}}></FontAwesomeIcon>
+                </button>
+
+                <button onClick={handleShow}  className="dwn-btn2">
+                    <FontAwesomeIcon icon={faPenToSquare} style={{color:"#ffffff"}}></FontAwesomeIcon>
+                </button>
             </div>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header>

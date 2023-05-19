@@ -1,45 +1,93 @@
-import CV from "../media/PabloGarciaCVES.pdf"
-import RESUME from "../media/PabloGarciaCVEN.pdf"
+import CV from "../media/CV-ES.pdf"
+import RESUME from "../media/CV-IN.pdf"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleUser } from "@fortawesome/free-regular-svg-icons";
+import { faCircleInfo } from "@fortawesome/free-solid-svg-icons"; 
+import { faListAlt } from "@fortawesome/free-regular-svg-icons";
+import blackYoshi from "../media/blackYoshi.png"
+import { Link,useResolvedPath } from "react-router-dom";
+import { useState, useEffect } from "react";
+import marcaPais from "../media/marcaPais.png";
+import balanz from "../media/balanz.png";
+
+
 
 export default function Home(){
+
+    const [mobile, setMobile] = useState(false);
+    const [tab, setTab] = useState(false);
+    
+    const handleWindowSizeChange = () => {
+        if(window.innerWidth >=721 && window.innerWidth<=975){
+            setTab(true);
+        }else setTab(false);
+
+        if(window.innerWidth >= 1350) {
+            setMobile(true);
+        } else setMobile(false);
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleWindowSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleWindowSizeChange);
+        }
+    }, []);
+
     return (
     <div className="home">
-    <div className="homeHeader">
-        
-        <h1>El porqué de esta pagina:</h1>
-    </div>
-    <div className="homeBody">
-        <div className="justificacion"> 
-            Esta pagina fue desarrollada en ReactJS con el fin de mostrar mis habilidades en el desarrollo web y en algoritmos de programación.
-             Toda la pagina fue hecha con ReactJS puro y CSS para estilizar, a excepcion de los botones colapsables que estan en la seccion "Sobre mi" 
-             y los cuadros de dialogo que aparecen al modificar una tarea de la ToDo App. 
-        </div>
-        <div className="todoapp">
-
-            Para el desarrollo de la ToDo App hice uso de useState Hooks en los cuales almacene arreglos de objetos teniendo las siguientes caracteristicas:
-            valor, index y check de la tarea. En donde el valor era el texto de la tarea, el index era para el manejo interno a la hora de editar o eliminar
-            una tarea y el check para saber si la tarea estaba actualmente marcada como completada o no. Cada una de las 3 vistas maneja un arreglo diferente,
-            siendo el de "Todas las tareas" el único que contiene todas las tareas que ha ingresado el usuario mientras la vista de completadas y pendientes
-            tendrán correspondientemente las tareas que ya se chequearon y las que no se han chequeado. Para mostrar los arreglos se utilicé la funcion map 
-            que permite mostrar un componente por cada valor existente en el arreglo. Si ves algo en esta pagina que podría mejorar porfavor escribeme a mi 
-            correo electronico que lo encontraras en la pestaña de Contacto.
-        </div>
-        <div className="intenciones">
-            Mi intencion es llevar un tracking de mis capacidades en esta pagina, haciendo actualizaciones periodicas agregando aplicaciones desarrolladas con 
-            diferentes herramientas.
-            Dejo a continuacion mi CV en español y en inglés.
-            <br></br>
-            <div className="botones">
-            <a href={CV} download={CV}><button className="getbtn">Obtener Curriculum</button></a>
-            <a href={RESUME} download={RESUME}><button className="getbtn">Get Resume</button></a>
-            
+        <div className="box1" style={tab?{paddingTop:"10%"}:{}}>
+            {mobile?<img id="avatar"src={blackYoshi} alt=""/>:null}
+            <div className="homeHeader">
+                <h1>¡Hola, soy <b>Pablo</b>!</h1>
+                <h2>Junior Full Stack Developer</h2>
+                <h3 id="paragraph">
+                    Aplicación desarrollada por mi en ReactJS con Redux. Adaptada para visualizarse en diferentes dispositivos. Diseñada por <a href="https://www.linkedin.com/in/holajimena/" style={{color:"white"}}>Jimena García</a>. <br></br><br></br>
+                    <b style={{fontSize:"1.5rem"}}>Proyectos en los que he tenido participación:</b>
+                </h3>
             </div>
-            
+            <div className="sites">
+                <a href="https://conoce.culturaguate.com/home" ><img id="plogo1" src={marcaPais}></img>
+                
+                </a>
+                <a href="http://ec2-52-207-219-10.compute-1.amazonaws.com/" ><img id="plogo2" src={balanz}></img></a>
+            <hr style={{width:"100%"}} />
+            </div>
+            <div className="botones">
+                <a href={CV} download={CV}><button className="getbtn1">Descargar CV</button></a>
+                <a href={RESUME} download={RESUME}><button className="getbtn2">Download Resume</button></a>
+            </div>
+
+            <div className="iconos">
+                <button className="iconbtn">
+                    <CstmLink to="/PrtflPGG/personal">
+                        <FontAwesomeIcon className="icon" icon={faCircleUser} style={{color: "#ffffff",}} />               
+                    </CstmLink>
+                </button>
+                {/* <button className="iconbtn">
+                    <FontAwesomeIcon className="icon" icon={faStar} style={{color: "#ffffff",}} />
+                </button> */}
+                <button className="iconbtn">
+                    <CstmLink to="/PrtflPGG/todoapp">
+                        <FontAwesomeIcon className="icon" icon={faListAlt} style={{color: "#ffffff",}} />
+                    </CstmLink>
+                </button>
+                <button className="iconbtn">
+                    <CstmLink to="/PrtflPGG/contacto">
+                        <FontAwesomeIcon className="icon" icon={faCircleInfo} style={{color: "#ffffff",}} />
+                    </CstmLink>
+                </button>
+            </div>
         </div>
-    </div>
-    
-   
+
     </div>
     );
     
+}
+function CstmLink({to,children,...props}){
+    const resolvedPath = useResolvedPath(to);
+    
+     return(
+        <Link to={to}{...props}>{children}</Link>
+     )
 }

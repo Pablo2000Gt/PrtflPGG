@@ -17,9 +17,7 @@ export default function Sobremi(){
             </div>
             
             <hr width="100%" color="#02253d" size="1px" />
-            <p>Estudiante de Ingeniería en Ciencias y Sistemas, entusiasta
-                de las nuevas tecnologías y Seleccionado Nacional de Polo
-                Acuático.
+            <p>Estudiante de Ingeniería en y Sistemas, entusiasta de la astronomía.
             </p>
         </div>
 
@@ -35,9 +33,9 @@ export default function Sobremi(){
             </Button>
             <Collapse in={open}>
                 <div id="collapse-hab">
-                <ul >
+                <ul className="dataUl">
                     <li>
-                        ReactJS
+                        Impresión 3D
                     </li>
                     <li>
                        Inglés Avanzado
@@ -49,7 +47,7 @@ export default function Sobremi(){
                         Pensamiento Creativo
                     </li>
                     <li>
-                        Java, Python, C++, Golang
+                        Atleta alto rendimiento, 2017-2022
                     </li>
                 </ul>
                 </div>
@@ -61,23 +59,35 @@ export default function Sobremi(){
                 aria-expanded={abrir}
                 id="intereses"
             >
-                Intereses
+                Herramientas
             </Button>
             <Collapse in={abrir}>
                 <div id="collapse-int">
                 <ul >
                     <li>
-                        Blockchain
+                        Git
                     </li>
                     <li>
-                       Astronomía
+                       Linux
                     </li>
                     <li>
-                        Cripto-tecnologías
+                        Windows
                     </li>
                     <li>
-                        Seguridad Informatica
+                        Docker
                     </li> 
+                    <li>
+                        ReactJS, VueJS
+                    </li>
+                    <li>
+                        ExpressJS
+                    </li>
+                    <li>
+                        MongoDB, Postgres
+                    </li>
+                    <li>
+                        Java, Python, C++, Golang, Typescript
+                    </li>
                 </ul>
                 </div>
             </Collapse>
@@ -94,20 +104,10 @@ export default function Sobremi(){
                 <div id="collapse-exp">
                 <ul >
                     <li>
-                        Git
+                        InnApp: FullStack Developer: NodeJS - ReactJS - SCRUM
                     </li>
                     <li>
-                        Linux
-                    </li>
-                    <li>
-                       Windows
-                    </li>
-                    
-                    <li>
-                        Impresión 3D
-                    </li>
-                    <li>
-                        RestAPI: Flask (Python), RESTful (Golang)
+                        Tigo: Apprentice, NodeJS - VueJS - SCRUM
                     </li>
                 </ul>
                 </div>

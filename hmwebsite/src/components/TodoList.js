@@ -11,11 +11,11 @@ const TodoList = ({filter}) =>{
         }else if(filter === "done"){
             return state.todos.filter((todo)=>todo.completed === true);
         }else{
-            return state.todos
+            return state.todos;
         }
     });
     return(
-        <ul>
+        <ul id="ulstyle">
             {todos.map((todo)=>(
                 <TaskCard key={todo.id}id={todo.id} text={todo.text} completed={todo.completed}></TaskCard>
             ))}
