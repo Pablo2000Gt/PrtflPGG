@@ -14,7 +14,7 @@ import balanz from "../media/balanz.png";
 
 export default function Home(){
 
-    const [mobile, setMobile] = useState(false);
+    const [mobile, setMobile] = useState(true);
     const [tab, setTab] = useState(false);
     
     const handleWindowSizeChange = () => {
