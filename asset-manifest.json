@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PrtflPGG/static/css/main.907f7c0f.css",
-    "main.js": "/PrtflPGG/static/js/main.f28456fd.js",
+    "main.js": "/PrtflPGG/static/js/main.d8786a4e.js",
     "static/js/787.11616557.chunk.js": "/PrtflPGG/static/js/787.11616557.chunk.js",
     "static/media/portrait.JPG": "/PrtflPGG/static/media/portrait.9f6f0cf4ffbeae67a6a6.JPG",
     "static/media/blackYoshi.png": "/PrtflPGG/static/media/blackYoshi.4bccbf043b2f67fc5aef.png",
@@ -14,11 +14,11 @@
     "static/media/iphone_notification.mp3": "/PrtflPGG/static/media/iphone_notification.197185060a2128c3766b.mp3",
     "index.html": "/PrtflPGG/index.html",
     "main.907f7c0f.css.map": "/PrtflPGG/static/css/main.907f7c0f.css.map",
-    "main.f28456fd.js.map": "/PrtflPGG/static/js/main.f28456fd.js.map",
+    "main.d8786a4e.js.map": "/PrtflPGG/static/js/main.d8786a4e.js.map",
     "787.11616557.chunk.js.map": "/PrtflPGG/static/js/787.11616557.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.907f7c0f.css",
-    "static/js/main.f28456fd.js"
+    "static/js/main.d8786a4e.js"
   ]
 }
